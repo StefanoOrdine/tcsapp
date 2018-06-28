@@ -11,7 +11,7 @@ At the moment the app visualizes the list of events in the main View.
 * The list of card are loaded used the wordpress api and axios as js client.
 * The EventCard loads ase64 encoded  placeholder before loading the actual event image from api.
 * No test have been implemented yet
+* Use react-native-htmlview to render raw html for event text and title
 
 ## Next steps
-* Use react-native-htmlview to render raw html for event text and title
 * Use rn-placeholder to give a better placeholder for the entire EventCard.

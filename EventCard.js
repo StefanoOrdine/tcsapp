@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Image } from 'react-native';
 import { Card, CardItem, Text } from 'native-base';
 import axios from 'axios';
+import HTMLView from 'react-native-htmlview';
 
 class EventCard extends Component {
   state = { imageUri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnUAAAABCAQAAAAS0pAhAAAAEklEQVR42mNkGAWjYBSMgmEPAAnWAAJnO7DjAAAAAElFTkSuQmCC' }
@@ -24,10 +25,10 @@ class EventCard extends Component {
             style={ { height: 200, width: null, flex: 1 } }/>
         </CardItem>
         <CardItem>
-          <Text>{ cardTitle }</Text>
+          <HTMLView value={cardTitle}/>
         </CardItem>
         <CardItem>
-          <Text>{ cardText }</Text>
+          <HTMLView value={cardText}/>
         </CardItem>
       </Card>
     );
