@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Image } from 'react-native';
 import { Card, CardItem, Text, View } from 'native-base';
 import axios from 'axios';
+import { truncate } from 'lodash';
 
 import EventCard from './EventCard';
 
@@ -21,7 +22,7 @@ class EventList extends Component {
         key={event.id}
         imageUri={event['_links']['wp:featuredmedia'][0].href}
         cardTitle={event.title.rendered}
-        cardText={event.content.rendered}
+        cardText={truncate(event.content.rendered, { length: 150 })}
       />
     ));
   }
