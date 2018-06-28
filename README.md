@@ -16,3 +16,6 @@ At the moment the app visualizes the list of events in the main View.
 
 ## Next steps
 * Use rn-placeholder to give a better placeholder for the entire EventCard.
+* Sketch a new layout to display other sections like Hoem, Events, Speakers, Partners, etc.
+* Implement the single Event Page.
+* Implement the Speaker Section.
