@@ -3,6 +3,7 @@ import { Image } from 'react-native';
 import { Card, CardItem, Text } from 'native-base';
 import axios from 'axios';
 import HTMLView from 'react-native-htmlview';
+import truncate from 'lodash/truncate';
 
 class EventCard extends Component {
   state = { imageUri: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAnUAAAABCAQAAAAS0pAhAAAAEklEQVR42mNkGAWjYBSMgmEPAAnWAAJnO7DjAAAAAElFTkSuQmCC' }
@@ -28,7 +29,7 @@ class EventCard extends Component {
           <HTMLView value={cardTitle}/>
         </CardItem>
         <CardItem>
-          <HTMLView value={cardText}/>
+          <HTMLView value={truncate(cardText, { length: 150 })}/>
         </CardItem>
       </Card>
     );
