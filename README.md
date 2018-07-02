@@ -20,9 +20,10 @@ At the moment the app visualizes the list of events in the main View.
   * then the titles and description is rendered on each card still with the image placeholder
   * and finally the images arrives from a second api call for each card and will be switched with the placeholder images
   * the result is a good looking composition of data in the card as far as data arrives from api calls.
+* Add eslint.
+* React Navigation as a routing library.
 
 ## Next steps
-* Find a Routing library.
 * Sketch a new layout to display other sections like Hoem, Events, Speakers, Partners, etc.
 * Implement the single Event Page.
 * Implement the Speaker Section.

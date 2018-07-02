@@ -4,13 +4,15 @@
  * @flow
  */
 
-import React, { Component } from 'react';
+import React from 'react';
 import { Header, Title, Body } from 'native-base';
 
-export default () => (
+const TcsHeader = () => (
   <Header>
     <Body>
       <Title>Torino Coding Society</Title>
     </Body>
   </Header>
-)
+);
+
+export default TcsHeader;

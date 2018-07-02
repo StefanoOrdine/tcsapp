@@ -8,12 +8,16 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
+    "eslint": "^5.0.1",
+    "eslint-plugin-react": "^7.10.0",
+    "eslint-plugin-react-native": "^3.2.1",
     "lodash": "^4.17.10",
     "native-base": "^2.6.0",
     "react": "16.3.1",
     "react-native": "0.55.4",
     "react-native-htmlview": "^0.12.1",
     "react-native-vector-icons": "^4.6.0",
+    "react-navigation": "^2.5.5",
     "rn-placeholder": "^1.2.0"
   },
   "devDependencies": {

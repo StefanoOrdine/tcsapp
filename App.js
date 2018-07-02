@@ -10,14 +10,7 @@ import { Container } from 'native-base';
 import Header from './Header';
 import Content from './Content';
 
-const cards = [
-  {
-    text: 'Card One',
-    name: 'One',
-  },
-];
-
-export default class App extends Component<Props> {
+export default class App extends Component {
   render() {
     return (
       <Container>
