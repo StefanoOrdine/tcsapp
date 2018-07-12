@@ -27,3 +27,4 @@ At the moment the app visualizes the list of events in the main View.
 * Sketch a new layout to display other sections like Hoem, Events, Speakers, Partners, etc.
 * Implement the single Event Page.
 * Implement the Speaker Section.
+* take a look at https://github.com/mathiasbynens/he to decode the html from api.

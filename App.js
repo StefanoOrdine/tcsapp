@@ -7,15 +7,15 @@
 import React, { Component } from 'react';
 import { Container } from 'native-base';
 
-import Header from './Header';
-import Content from './Content';
+import TcsHeader from './TcsHeader';
+import TcsContent from './TcsContent';
 
 export default class App extends Component {
   render() {
     return (
       <Container>
-        <Header />
-        <Content />
+        <TcsHeader />
+        <TcsContent />
       </Container>
     );
   }
